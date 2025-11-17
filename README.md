@@ -87,13 +87,14 @@ It's a value that a programmer can assign to a variable to explicitly indicate "
 typeof null returns "object" (which is a historical bug in JavaScript, but null is conceptually a primitive value)
 ## Section C Coding Questions. 
 ### Declare a variable using let and assign your name to it.
-Let myName = "Jahswill Omoware ";
+let myName = "Jahswill omoware";
 ### Write JavaScript code to add two numbers and log the result.
-let num1 = 10;
-let num2 = 25;
-Let num3 = 65 
-let sum = num1 + num2; + num3 
-console.log("The sum is:", sum); // Output:
+let num1 = 30:
+let num2 = 30:
+let num3 = 40:
+let sum = num1 + num2+ num3; 
+console.log (The sum is:", sum);/
+
 ### Create an object called student with properties name, age, and department.
 let student = {
     name: "Jahswill Omoware ",
@@ -123,15 +124,5 @@ console.log("The first color is:", colors[0]); // Output: The first color is: Re
 function square(num) {
     return num * num;
 }
-
 let result = square(5);
-console.log("The square of 5 is:", result); // Output: The square of 5 is: 25
-
-let anotherResult = square(10);
-console.log("The square of 10 is:", anotherResult);
-### Write a small code snippet that converts a string to a number: let value = "42"; // convert to number here
-let value = "42";
-let numberValue = parseInt(value); // or Number(value) or +value
-
-console.log(numberValue); // Output: 42
-console.log(typeof numberValue); // Output: number
+console.log("The square of 5 is:", result); // Output: The square of 5 is: 25 
