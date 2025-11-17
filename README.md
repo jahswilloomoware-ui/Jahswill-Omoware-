@@ -119,5 +119,19 @@ if (number % 2 === 0) {
 ### Create an array of 5 colors and print the first color.
 let colors = ["Red", "Blue", "Green", "Yellow", "Purple"];
 console.log("The first color is:", colors[0]); // Output: The first color is: Red 
+### Write a function that returns the square of a number passed into it.
+function square(num) {
+    return num * num;
+}
 
+let result = square(5);
+console.log("The square of 5 is:", result); // Output: The square of 5 is: 25
 
+let anotherResult = square(10);
+console.log("The square of 10 is:", anotherResult);
+### Write a small code snippet that converts a string to a number: let value = "42"; // convert to number here
+let value = "42";
+let numberValue = parseInt(value); // or Number(value) or +value
+
+console.log(numberValue); // Output: 42
+console.log(typeof numberValue); // Output: number
