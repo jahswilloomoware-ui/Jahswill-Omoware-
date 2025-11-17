@@ -70,3 +70,54 @@ Caching: Can be cached by browsers and proxies, while POST Request are  generall
 ### What datatype is a JavaScript array? 
 * In JavaScript, an array is a special type of object. When you use typeof on an array, it returns "object".
 ### Give one example of a string in JavaScript.
+"Hello, World!"
+### Give one example of a number in JavaScript
+100
+### What will be the output of this expression? typeof "123" 
+* u think the output will be: "string"
+### Explain the difference between null and undefined.
+* undefined:
+Indicates that a variable has been declared but has not yet been assigned a value.
+It's also the value returned by functions that don't explicitly return anything.
+It's the value of non-existent object properties or array elements.
+typeof undefined returns "undefined".
+* null:
+Represents the intentional absence of any object value. It's a primitive value.
+It's a value that a programmer can assign to a variable to explicitly indicate "no value" or "empty."
+typeof null returns "object" (which is a historical bug in JavaScript, but null is conceptually a primitive value)
+## Section C Coding Questions. 
+### Declare a variable using let and assign your name to it.
+Let myName = "Jahswill Omoware ";
+### Write JavaScript code to add two numbers and log the result.
+let num1 = 10;
+let num2 = 25;
+Let num3 = 65 
+let sum = num1 + num2; + num3 
+console.log("The sum is:", sum); // Output:
+### Create an object called student with properties name, age, and department.
+let student = {
+    name: "Jahswill Omoware ",
+    age: 22,
+    department: "Computer Science"
+};console.log(student);
+// Output: 
+### Write a JavaScript function called greet() that prints "Hello World".
+function greet() {
+    console.log("Hello World");
+}
+
+greet(); // 
+#### Write a program that checks if a number is even or odd.
+let number = 7; // 
+
+if (number % 2 === 0) {
+    console.log(number + " is an even number.");
+} else {
+    console.log(number + " is an odd number.");
+
+}
+### Create an array of 5 colors and print the first color.
+let colors = ["Red", "Blue", "Green", "Yellow", "Purple"];
+console.log("The first color is:", colors[0]); // Output: The first color is: Red 
+
+
