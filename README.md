@@ -21,3 +21,27 @@ Database: Refers to an organized collection of structured information, or data, 
 ### List two differences between SQL and NoSQL databases.
 * SQL (Relational Databases)  Uses a structured, tabular schema with predefined columns and rows, while NOSQL Uses a dynamic schema, often document-based, key-value, graph, or column-family.
 Typically SQL scale vertically (more powerful server) eg MySQL, PostgreSQL, Oracle, SQL Server, while NoSQL  Typically scale horizontally (add more servers) eg MongoDB, Cassandra, Redis, Neo4. 
+### What is a backend framework? Mention one example.
+* A Backend Framework can be defined as a collection of pre-written code, libraries, and tools that provide a structure and common functionalities for building backend applications. They streamline development by handling routine tasks like database interaction, routing, security, and session management, allowing developers to focus on business logic.
+Example: Node.js
+### Explain what HTTP and why it's important.
+* HTTP (Hypertext Transfer Protocol): is the foundation of data communication for the World Wide Web. It's an application-layer protocol for transmitting hypermedia documents, such as HTML. It defines how messages are formatted and transmitted, and what actions web servers and browsers should take in response to various commands.
+Importance: HTTP is essential because it enables communication between web clients (browsers) and web servers. Without it, browsers wouldn't be able to request web pages, images, or other resources from servers, and servers wouldn't be able to send them back. It's the standard language for web communication.
+### Mention two responsibilities of a backend developer.
+*Managing databases and ensuring data integrity.
+* Writing server-side logic and Ensuring application security and performance. 
+### What does CRUD stand for? Explain each word.
+C - Create: Adding new data records (e.g., creating a new user account, adding a new product).
+R - Read: Retrieving existing data records (e.g., fetching a user's profile, listing all products).
+U - Update: Modifying existing data records (e.g., changing a user's identity like email address) 
+D - Delete: Removing data records (for example ., deleting a user account, removing a product.
+
+### What is authentication and why is it important for backend applications?
+* Authentication: can be defined as the process of verifying the identity of a user, system, or application. It confirms identity (who you are) by checking credentials like usernames and passwords, tokens, or biometric data.
+* Importance for Backend Applications: Authentication is critical for security. It ensures that only authorized users can access specific resources, data, or functionalities within the application. Without proper authentication, sensitive data could be exposed, and unauthorized actions could be performed, leading to data breaches, system compromise, and loss of trust.
+### What is the difference between a GET request and a POST request?
+GET Request: is  Used to retrieve data from the server, while Post request is Used to send data to the server to create or update a resource.
+Data Transmission: Parameters are appended to the URL (query string), while POST Request Parameters are sent in the body of the HTTP request. 
+Security: Less secure for sensitive data as parameters are visible in the URL and browser history, while POST Request is more secure for sensitive data as parameters are not visible in the URL.
+Caching: Can be cached by browsers and proxies, while POST Request are  generally not cached.Generally not cached.
+
