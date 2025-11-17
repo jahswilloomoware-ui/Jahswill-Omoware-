@@ -1,7 +1,7 @@
-# Jahswill-Omoware-
+## Section B: JavaScript Variables & Datatypes (Theory)# Jahswill-Omoware-
 TechyJaunt submission
 
-### 1. What is backend development and how is it different from frontend development?
+### What is backend development and how is it different from frontend development?
 **Backend Development: Refers to the server-side of an application, focusing on databases, servers, APIs, and the logic that powers the frontend. It handles data storage, processing, security, and communication with the frontend. Users don't directly interact with the backend.
 ** Difference from Frontend Development:
 Frontend: Deals with the user interface (UI) and user experience (UX) – everything the user sees and interacts with in a web browser or mobile app (e.g., HTML, CSS, JavaScript), While Backend: Deals with the "behind-the-scenes" logic, data management, and server operations that make the frontend functional (e.g., databases, APIs, server-side languages like Python, Node.js, Java).
@@ -45,3 +45,28 @@ Data Transmission: Parameters are appended to the URL (query string), while POST
 Security: Less secure for sensitive data as parameters are visible in the URL and browser history, while POST Request is more secure for sensitive data as parameters are not visible in the URL.
 Caching: Can be cached by browsers and proxies, while POST Request are  generally not cached.Generally not cached.
 
+## Section B: JavaScript Variables & Datatypes (Theory)
+
+### What is a variable in JavaScript? 
+* A variable in JavaScript is a named storage location for data. It allows you to store values (like numbers, text, objects, etc.) and refer to them by a name throughout your code. Variables can hold different types of data, and their values can change during the execution of a program.
+### List the three ways to declare variables in JavaScript. 
+
+* var
+* let
+* const
+### Explain the difference between let and const.
+* let: Declares a block-scoped local variable. Its value can be reassigned later in the code.
+* const: Declares a block-scoped local variable whose value cannot be reassigned after its initial assignment. It must be initialized at the time of declaration.
+### Mention the seven primitive datatypes in JavaScript. 
+* string
+* number
+* boolean
+* undefined
+* null
+* symbol 
+* bigint 
+### What datatype is assigned to the value: true? 
+* The datatype assigned to the value true is boolean.
+### What datatype is a JavaScript array? 
+* In JavaScript, an array is a special type of object. When you use typeof on an array, it returns "object".
+### Give one example of a string in JavaScript.
