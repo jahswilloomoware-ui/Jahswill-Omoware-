@@ -1,5 +1,4 @@
-## Section B: JavaScript Variables & Datatypes (Theory)# Jahswill-Omoware-
-TechyJaunt submission
+## Section A: introduction to Backend TechyJaunt submission
 
 ### What is backend development and how is it different from frontend development?
 **Backend Development: Refers to the server-side of an application, focusing on databases, servers, APIs, and the logic that powers the frontend. It handles data storage, processing, security, and communication with the frontend. Users don't directly interact with the backend.
@@ -88,21 +87,4 @@ typeof null returns "object" (which is a historical bug in JavaScript, but null 
 ## Section C Coding Questions. 
 ### Declare a variable using let and assign your name to it.
 let myName = "Jahswill omoware";
-### Write JavaScript code to add two numbers and log the result.
-let num1 = 30:
-let num2 = 30:
-let num3 = 40:
-let sum = num1 + num2+ num3; 
-console.log (The sum is:", sum);/
-
-### Create an object called student with properties name, age, and department.
-let student = {
-    name: "Jahswill Omoware ",
-    age: 22,
-    department: "techyjaunt cohort 7"
-};console.log(student);
-// Output: 
-### Write a JavaScript function called greet() that prints "Hello World".
-function greet() {
-    console.log("Hello World");
 
