@@ -99,30 +99,10 @@ console.log (The sum is:", sum);/
 let student = {
     name: "Jahswill Omoware ",
     age: 22,
-    department: "Computer Science"
+    department: "techyjaunt cohort 7"
 };console.log(student);
 // Output: 
 ### Write a JavaScript function called greet() that prints "Hello World".
 function greet() {
     console.log("Hello World");
-}
 
-greet(); // 
-#### Write a program that checks if a number is even or odd.
-let number = 7; // 
-
-if (number % 2 === 0) {
-    console.log(number + " is an even number.");
-} else {
-    console.log(number + " is an odd number.");
-
-}
-### Create an array of 5 colors and print the first color.
-let colors = ["Red", "Blue", "Green", "Yellow", "Purple"];
-console.log("The first color is:", colors[0]); // Output: The first color is: Red 
-### Write a function that returns the square of a number passed into it.
-function square(num) {
-    return num * num;
-}
-let result = square(5);
-console.log("The square of 5 is:", result); // Output: The square of 5 is: 25 
